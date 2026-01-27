@@ -7,7 +7,7 @@ edition = "2021"
 [lib]
 name = "svgager_native"
 path = "src/lib.rs"
-crate-type = ["cdylib", "rlib"]
+crate-type = ["cdylib"]
 
 [dependencies]
 rustler = "0.34.0"
