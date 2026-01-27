@@ -13,8 +13,8 @@ defmodule Svgager.MixProject do
       # Hex
       description: description(),
       package: package(),
-      source_url: "https://github.com/OWNER/svgager",
-      homepage_url: "https://github.com/OWNER/svgager",
+      source_url: "https://github.com/OutdoorMap/svgager",
+      homepage_url: "https://github.com/OutdoorMap/svgager",
       docs: docs()
     ]
   end
@@ -32,8 +32,8 @@ defmodule Svgager.MixProject do
       name: "svgager",
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/OWNER/svgager",
-        "Issues" => "https://github.com/OWNER/svgager/issues"
+        "GitHub" => "https://github.com/OutdoorMap/svgager",
+        "Issues" => "https://github.com/OutdoorMap/svgager/issues"
       },
       files: ~w(lib native/svgager_native/.cargo native/svgager_native/src
                 native/svgager_native/Cargo.* .formatter.exs mix.exs README.md
