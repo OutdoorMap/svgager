@@ -1,0 +1,3 @@
+[tools]
+elixir = "latest"
+rust = "latest"
