@@ -39,7 +39,7 @@ defmodule Svgager.MixProject do
       },
       files: ~w(lib native/svgager_native/.cargo native/svgager_native/src
                 native/svgager_native/Cargo.* .formatter.exs mix.exs README.md
-                LICENSE CHANGELOG.md checksum-*.exs config)
+                LICENSE checksum-*.exs config)
     ]
   end
 
@@ -75,6 +75,7 @@ defmodule Svgager.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:rustler, "~> 0.35.0", optional: true},
       {:rustler_precompiled, "~> 0.8.0"}
     ]
