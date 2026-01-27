@@ -46,7 +46,7 @@ defmodule Svgager.MixProject do
   defp docs do
     [
       main: "readme",
-      extras: ["README.md", "CONTRIBUTING.md", "DEVELOPMENT.md", "LICENSE"]
+      extras: ["README.md", "CONTRIBUTING.md", "LICENSE"]
     ]
   end
 
