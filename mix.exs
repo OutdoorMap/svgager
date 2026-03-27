@@ -77,7 +77,7 @@ defmodule Svgager.MixProject do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:rustler, "~> 0.37.1", optional: true},
-      {:rustler_precompiled, "~> 0.8.0"}
+      {:rustler_precompiled, "~> 0.9.0"}
     ]
   end
 end
